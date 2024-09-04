@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "ms-playwright.playwright",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+        "esbenp.prettier-vscode"
     ]
 }
