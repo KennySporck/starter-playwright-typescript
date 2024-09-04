@@ -29,46 +29,46 @@ To contribute code, follow these steps:
 
 1. **Fork the repository:**
 
-    Click the "Fork" button at the top right of the repository page.
+   Click the "Fork" button at the top right of the repository page.
 
 2. **Clone your fork:**
 
-    ```bash
-    git clone https://github.com/your-username/starter-playwright-typescript.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/starter-playwright-typescript.git
+   ```
 
 3. **Create a new branch:**
 
-    ```bash
-    git checkout -b my-feature-branch
-    ```
+   ```bash
+   git checkout -b my-feature-branch
+   ```
 
-    Replace `my-feature-branch` with a descriptive name for your branch.
+   Replace `my-feature-branch` with a descriptive name for your branch.
 
 4. **Make your changes:**
 
-    Implement your feature or fix the issue in this branch.
+   Implement your feature or fix the issue in this branch.
 
 5. **Commit your changes:**
 
-    ```bash
-    git add .
-    git commit -m "Describe your changes"
-    ```
+   ```bash
+   git add .
+   git commit -m "Describe your changes"
+   ```
 
 6. **Push your changes:**
 
-    ```bash
-    git push origin my-feature-branch
-    ```
+   ```bash
+   git push origin my-feature-branch
+   ```
 
 7. **Create a Pull Request:**
 
-    - Go to the [Pull Requests page](https://github.com/jonasclaes/starter-playwright-typescript/pulls).
-    - Click on "New pull request".
-    - Select your branch and compare it with the `main` branch.
-    - Provide a descriptive title and detailed description of your pull request.
-    - Click "Create pull request".
+   - Go to the [Pull Requests page](https://github.com/jonasclaes/starter-playwright-typescript/pulls).
+   - Click on "New pull request".
+   - Select your branch and compare it with the `main` branch.
+   - Provide a descriptive title and detailed description of your pull request.
+   - Click "Create pull request".
 
 ### Code Style and Guidelines
 
@@ -92,7 +92,7 @@ Once you submit a pull request:
 
 If you have questions about contributing, please contact us:
 
-* **GitHub Discussions:** [Discussions page](https://github.com/jonasclaes/starter-playwright-typescript/discussions)
-* **GitHub Issues:** [Issues page](https://github.com/jonasclaes/starter-playwright-typescript/issues)
+- **GitHub Discussions:** [Discussions page](https://github.com/jonasclaes/starter-playwright-typescript/discussions)
+- **GitHub Issues:** [Issues page](https://github.com/jonasclaes/starter-playwright-typescript/issues)
 
 Thank you for contributing to **starter-playwright-typescript**! Your efforts help make the project better for everyone.

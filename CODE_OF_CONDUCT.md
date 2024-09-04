@@ -27,10 +27,12 @@ The following behaviors are considered unacceptable:
 If you experience or witness any behavior that violates this Code of Conduct, please report it. We are committed to addressing issues promptly and fairly.
 
 1. **Contact Us:**
+
    - Email: [jonas@jonasclaes.be](mailto:jonas@jonasclaes.be)
    - GitHub Issues: [Report an Issue](https://github.com/jonasclaes/starter-playwright-typescript/issues/new)
 
 2. **Provide Details:**
+
    - Describe the behavior and context.
    - Include any relevant information or evidence.
 
