@@ -1,12 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
-import path from 'path';
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-import dotenv from 'dotenv';
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+import 'dotenv/config';
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -32,7 +30,10 @@ export default defineConfig({
     trace: 'on-first-retry',
 
     /* Collect screenshots when the test fails. */
-    screenshot: "only-on-failure"
+    screenshot: "only-on-failure",
+
+    /* Base URL to use in actions like `await page.goto('/')`. */
+    baseURL: process.env.BASE_URL ?? "https://qaura.be"
   },
 
   /* Configure projects for major browsers */

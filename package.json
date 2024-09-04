@@ -1,6 +1,7 @@
 {
   "name": "starter-playwright-typescript",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "playwright test"
@@ -11,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.46.1",
+    "@tsconfig/node20": "^20.1.4",
     "@types/node": "^22.5.3",
     "dotenv": "^16.4.5"
   }
