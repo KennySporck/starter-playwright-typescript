@@ -17,6 +17,9 @@ test("has introduction", async ({ page, homePage }) => {
     "At QAura, we are dedicated to redefining quality assurance with a focus on innovation and sustainability. Our advanced software testing solutions empower businesses to create robust and eco-friendly digital products.",
   );
 
+  // Expect the page to be fully loaded before taking a screenshot.
+  await page.waitForLoadState("networkidle");
+
   // Expect that it looks correct.
   await expect(homePage.headingIntroduction).toHaveScreenshot();
 });
