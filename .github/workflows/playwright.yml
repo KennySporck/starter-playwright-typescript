@@ -23,6 +23,7 @@ jobs:
         env:
           HOME: /root
       - name: Upload results to Testmo
+        if: always()
         run: -<
           testmo automation:run:submit \
           --instance https://$TESTMO_INSTANCE.testmo.net \
