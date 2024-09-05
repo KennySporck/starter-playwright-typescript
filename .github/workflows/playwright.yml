@@ -22,6 +22,14 @@ jobs:
         run: npx playwright test
         env:
           HOME: /root
+      - name: Upload results to Testmo
+        run: -<
+          testmo automation:run:submit \
+          --instance https://$TESTMO_INSTANCE.testmo.net \
+          --project-id 8 \
+          --name "Test Run" \
+          --source "Playwright" \
+          --results testmo/*.xml
       - uses: actions/upload-artifact@v4
         if: always()
         with:

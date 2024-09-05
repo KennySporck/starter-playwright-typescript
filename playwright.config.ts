@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { type TestmoReporterOptions } from "playwright-testmo-reporter";
 
 /**
  * Read environment variables from file.
@@ -20,7 +21,20 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: "html",
+  reporter: [
+    ["html"],
+    [
+      "playwright-testmo-reporter",
+      {
+        outputFile: "testmo/testmo.xml", // Optional: Output file path. Defaults to 'testmo.xml'.
+        embedBrowserType: false, // Optional: Embed browser type in the XML file. Defaults to false.
+        embedTestSteps: true, // Optional: Embed test steps in the XML file. Defaults to true.
+        testStepCategories: ["hook", "expect", "pw:api", "test.step"], // Optional: Test step categories to include in the XML file. Defaults to ["hook","expect","pw:api","test.step"]. Possible options are "hook", "expect", "pw:api", "test.step".
+        testTitleDepth: 2, // Optional: Test case title depth to report in the XML file. Defaults to 1. Increase this to 2 include suite name. Increase this even further to include the path.
+        includeTestSubFields: true, // Optional: Include test sub fields in the XML file. Defaults to false.
+      } satisfies TestmoReporterOptions,
+    ],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
