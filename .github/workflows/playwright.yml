@@ -31,6 +31,8 @@ jobs:
             --name "Test Run" \
             --source "Playwright" \
             --results testmo/*.xml
+        env:
+          TESTMO_TOKEN: ${{ secrets.TESTMO_TOKEN }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
