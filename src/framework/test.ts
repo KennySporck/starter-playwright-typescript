@@ -1,6 +1,6 @@
-import { ContactUsPage } from "@pages/contact-us.page.js";
-import { HomePage } from "@pages/home.page.js";
 import { test as baseTest } from "@playwright/test";
+import { HomePage } from "@pages/qaura/home.page.js";
+import { ContactUsPage } from "@pages/qaura/contact-us.page.js";
 
 type TestFixtures = {
   homePage: HomePage;

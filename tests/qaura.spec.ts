@@ -2,15 +2,15 @@ import { test } from "@framework/test.js";
 import { expect } from "@playwright/test";
 
 test.describe("QAura", () => {
-  test("has logo", async ({ page, homePage }) => {
-    await page.goto(homePage.url);
+  test("has logo", async ({ homePage }) => {
+    await homePage.page.goto(homePage.href);
 
     await expect(homePage.page).toHaveTitle(/Home/);
     await expect(homePage.page).toHaveTitle(/QAura/);
   });
 
-  test("has introduction", async ({ page, homePage }) => {
-    await page.goto(homePage.url);
+  test("has introduction", async ({ homePage }) => {
+    await homePage.page.goto(homePage.href);
 
     await expect(homePage.headingIntroduction).toHaveText(
       "At QAura, we are dedicated to redefining quality assurance with a focus on innovation and sustainability. Our advanced software testing solutions empower businesses to create robust and eco-friendly digital products.",
@@ -19,8 +19,8 @@ test.describe("QAura", () => {
     await expect(homePage.headingIntroduction).toHaveScreenshot();
   });
 
-  test("has contact us link", async ({ page, homePage, contactUsPage }) => {
-    await page.goto(homePage.url);
+  test("has contact us link", async ({ homePage, contactUsPage }) => {
+    await homePage.page.goto(homePage.href);
 
     await homePage.linkContactUs.click();
 

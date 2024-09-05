@@ -2,8 +2,7 @@ import { BasePage } from "@framework/base.page.js";
 import { Locator } from "@playwright/test";
 
 export class HomePage extends BasePage {
-  readonly url = "/";
-
+  readonly href = "/";
   readonly linkLogo: Locator = this.page.getByRole("link", {
     name: "Logo of QAura",
   });
