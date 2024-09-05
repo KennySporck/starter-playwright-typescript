@@ -53,7 +53,7 @@ Get started with **starter-playwright-typescript** by following these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jonasclaes/starter-playwright-typescript.git
+   git clone https://github.com/QAura-NV/starter-playwright-typescript.git
    ```
 
    This creates a local copy of the project.
@@ -103,13 +103,13 @@ Get started with **starter-playwright-typescript** by following these steps:
 
 Other troubleshooting supports:
 
-- [FAQs](https://github.com/jonasclaes/starter-playwright-typescript/wiki/FAQs)
-- [Runbooks](https://github.com/jonasclaes/starter-playwright-typescript/wiki/Runbooks)
-- [Community Support](https://github.com/jonasclaes/starter-playwright-typescript/issues)
+- [FAQs](https://github.com/QAura-NV/starter-playwright-typescript/wiki/FAQs)
+- [Runbooks](https://github.com/QAura-NV/starter-playwright-typescript/wiki/Runbooks)
+- [Community Support](https://github.com/QAura-NV/starter-playwright-typescript/issues)
 
 ## Contributing guidelines
 
-We welcome contributions to **starter-playwright-typescript**! Please refer to our [Contributing Guide](https://github.com/jonasclaes/starter-playwright-typescript/blob/main/CONTRIBUTING.md) for detailed instructions on how to contribute.
+We welcome contributions to **starter-playwright-typescript**! Please refer to our [Contributing Guide](https://github.com/QAura-NV/starter-playwright-typescript/blob/main/CONTRIBUTING.md) for detailed instructions on how to contribute.
 
 ## Additional documentation
 
@@ -123,9 +123,9 @@ For more information:
 
 Here’s how to get help, share ideas, or ask questions:
 
-- Post issues or questions on our [GitHub Issues](https://github.com/jonasclaes/starter-playwright-typescript/issues).
-- Join discussions and seek help in our [Community Forum](https://github.com/jonasclaes/starter-playwright-typescript/discussions).
+- Post issues or questions on our [GitHub Issues](https://github.com/QAura-NV/starter-playwright-typescript/issues).
+- Join discussions and seek help in our [Community Forum](https://github.com/QAura-NV/starter-playwright-typescript/discussions).
 
 ## Terms of use
 
-**starter-playwright-typescript** is licensed under the [ISC License](https://github.com/jonasclaes/starter-playwright-typescript/blob/main/LICENSE).
+**starter-playwright-typescript** is licensed under the [ISC License](https://github.com/QAura-NV/starter-playwright-typescript/blob/main/LICENSE).

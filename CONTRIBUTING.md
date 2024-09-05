@@ -8,7 +8,7 @@ Thank you for considering contributing to **starter-playwright-typescript**! We 
 
 If you encounter any bugs or have suggestions for improvements, please let us know by opening an issue:
 
-1. Go to the [Issues page](https://github.com/jonasclaes/starter-playwright-typescript/issues).
+1. Go to the [Issues page](https://github.com/QAura-NV/starter-playwright-typescript/issues).
 2. Click on "New issue".
 3. Provide a clear and descriptive title for the issue.
 4. Describe the issue in detail, including steps to reproduce if applicable.
@@ -18,7 +18,7 @@ If you encounter any bugs or have suggestions for improvements, please let us kn
 
 If you have ideas for new features or improvements:
 
-1. Go to the [Issues page](https://github.com/jonasclaes/starter-playwright-typescript/issues).
+1. Go to the [Issues page](https://github.com/QAura-NV/starter-playwright-typescript/issues).
 2. Click on "New issue".
 3. Select the "Enhancement" template if available or describe your suggestion in detail.
 4. Click "Submit new issue".
@@ -64,7 +64,7 @@ To contribute code, follow these steps:
 
 7. **Create a Pull Request:**
 
-   - Go to the [Pull Requests page](https://github.com/jonasclaes/starter-playwright-typescript/pulls).
+   - Go to the [Pull Requests page](https://github.com/QAura-NV/starter-playwright-typescript/pulls).
    - Click on "New pull request".
    - Select your branch and compare it with the `main` branch.
    - Provide a descriptive title and detailed description of your pull request.
@@ -92,7 +92,7 @@ Once you submit a pull request:
 
 If you have questions about contributing, please contact us:
 
-- **GitHub Discussions:** [Discussions page](https://github.com/jonasclaes/starter-playwright-typescript/discussions)
-- **GitHub Issues:** [Issues page](https://github.com/jonasclaes/starter-playwright-typescript/issues)
+- **GitHub Discussions:** [Discussions page](https://github.com/QAura-NV/starter-playwright-typescript/discussions)
+- **GitHub Issues:** [Issues page](https://github.com/QAura-NV/starter-playwright-typescript/issues)
 
 Thank you for contributing to **starter-playwright-typescript**! Your efforts help make the project better for everyone.

@@ -28,8 +28,8 @@ If you experience or witness any behavior that violates this Code of Conduct, pl
 
 1. **Contact Us:**
 
-   - Email: [jonas@jonasclaes.be](mailto:jonas@jonasclaes.be)
-   - GitHub Issues: [Report an Issue](https://github.com/jonasclaes/starter-playwright-typescript/issues/new)
+   - Email: [jonas.claes@qaura.be](mailto:jonas.claes@qaura.be)
+   - GitHub Issues: [Report an Issue](https://github.com/QAura-NV/starter-playwright-typescript/issues/new)
 
 2. **Provide Details:**
 
@@ -57,4 +57,4 @@ Thank you for contributing to **starter-playwright-typescript** and helping us m
 
 ---
 
-For more information or questions regarding this Code of Conduct, please contact us at [jonas@jonasclaes.be](mailto:jonas@jonasclaes.be).
+For more information or questions regarding this Code of Conduct, please contact us at [jonas.claes@qaura.be](mailto:jonas.claes@qaura.be).
