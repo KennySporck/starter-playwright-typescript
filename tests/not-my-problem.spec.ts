@@ -5,7 +5,7 @@ test.use({
   baseURL: "https://notmyproblem.cloud/",
 });
 
-test.describe("Not my problem", () => {
+test.describe("NotMyProblem - NotMyProblem", () => {
   test("GET /api/v1/notmyproblem", async ({ request }) => {
     const response = await request.get("/api/v1/notmyproblem");
     const json = await response.json();
@@ -23,7 +23,9 @@ test.describe("Not my problem", () => {
       }),
     );
   });
+});
 
+test.describe("NotMyProblem - Reasons", () => {
   test("GET /api/v1/reasons", async ({ request }) => {
     const response = await request.get("/api/v1/reasons");
     const json = await response.json();

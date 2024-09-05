@@ -1,7 +1,7 @@
 import { test } from "@framework/test.js";
 import { expect } from "@playwright/test";
 
-test.describe("QAura", () => {
+test.describe("QAura - Home", () => {
   test("has title", async ({ homePage }) => {
     await homePage.page.goto(homePage.href);
 
@@ -23,6 +23,14 @@ test.describe("QAura", () => {
     await homePage.page.goto(homePage.href);
 
     await homePage.linkContactUs.click();
+
+    await expect(contactUsPage.page).toHaveURL(contactUsPage.href);
+  });
+});
+
+test.describe("QAura - Contact Us", () => {
+  test("has contact us link", async ({ homePage, contactUsPage }) => {
+    await homePage.page.goto(contactUsPage.href);
 
     await expect(contactUsPage.page).toHaveTitle(/Contact Us/);
     await expect(contactUsPage.headingContactUs).toBeVisible();
