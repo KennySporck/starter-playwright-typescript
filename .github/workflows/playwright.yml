@@ -26,7 +26,7 @@ jobs:
         if: always()
         run: |
           npx testmo automation:run:submit \
-            --instance https://$TESTMO_INSTANCE.testmo.net \
+            --instance https://jonasclaesbe.testmo.net \
             --project-id 8 \
             --name "Test Run" \
             --source "Playwright" \
