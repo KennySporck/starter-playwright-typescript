@@ -2,7 +2,7 @@ import { test } from "@framework/test.js";
 import { expect } from "@playwright/test";
 
 test.describe("QAura", () => {
-  test("has logo", async ({ homePage }) => {
+  test("has title", async ({ homePage }) => {
     await homePage.page.goto(homePage.href);
 
     await expect(homePage.page).toHaveTitle(/Home/);
