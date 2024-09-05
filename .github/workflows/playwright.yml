@@ -25,7 +25,7 @@ jobs:
       - name: Upload results to Testmo
         if: always()
         run: |
-          testmo automation:run:submit \
+          npx testmo automation:run:submit \
             --instance https://$TESTMO_INSTANCE.testmo.net \
             --project-id 8 \
             --name "Test Run" \
